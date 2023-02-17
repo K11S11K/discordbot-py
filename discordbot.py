@@ -76,7 +76,9 @@ async def on_message(message):
     if message.content == f'{PREFIX}고백 받아본적 있어?':
         await message.channel.send('알려줘?')
     
-    now = datetime.now()
+from datetime import datetime    
+    
+now = datetime.now()
     
     if message.content == f'{PREFIX}시간':
         await message.channel.send(now)
