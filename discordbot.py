@@ -30,6 +30,9 @@ async def on_message(message):
         
     if message.content.startswith(f'{PREFIX}루한'):
         await message.channel.send('저의 주인입니다!')
+       
+    if message.content.startswith(f'{PREFIX}웅덩이'):
+        await message.channel.send('너무 크다!!')
 
 
 try:
