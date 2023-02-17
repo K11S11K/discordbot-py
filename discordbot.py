@@ -60,6 +60,16 @@ async def on_message(message):
                                    
     if message.content.startswith(f'{PREFIX}어쩌라고'):
         await message.channel.send('수듄ㅉㅉ')
+        
+    if message.content.startswith(f'{PREFIX}크스크'):
+        await message.channel.send('@ksk')
+
+    if message.content.startswith(f'{PREFIX}와'):
+        await message.channel.send('샌즈')
+        
+    if message.content.startswith(f'{PREFIX}ㄹㅇ'):
+        await message.channel.send('ㅋㅋ')
+
 
 
 
