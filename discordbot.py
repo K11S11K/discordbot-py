@@ -75,11 +75,6 @@ async def on_message(message):
 
     if message.content == f'{PREFIX}고백 받아본적 있어?':
         await message.channel.send('알려줘?')
-        
-    if message.content.startwith.f('{PREFIX}좋은 아침'):
-        await message.channel.send('굿모닝')
-
-
 
 try:
     client.run(TOKEN)
