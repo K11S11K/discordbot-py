@@ -78,6 +78,9 @@ async def on_message(message):
         
     if message.content == f'{PREFIX}Ohio':
         await message.channel.send('woong in Ohio')
+        
+    if message.content == f'{PREFIX}아이스':
+        await message.channel.send('녹아야 정신차림')
 
 try:
     client.run(TOKEN)
