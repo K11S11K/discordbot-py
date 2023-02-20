@@ -18,10 +18,7 @@ async def on_ready():
 async def on_message(message):
     if message.author == client.user:
         return
-
-    if message.content == f'{PREFIX}call':
-        await message.channel.send("callback!")
-
+    
     if message.content == f'{PREFIX}안녕':
         await message.channel.send('안녕하세요 첨단 기술로 만들어진 웅봇입니다!')
         
